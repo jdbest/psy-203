@@ -14,12 +14,14 @@ Assuming you're downloading to your own computer, you should open RStudio (follo
 
 [See the image for an example](set-working-directory.png)
 
-Hopefully, you've created folder on your computer in your Documents folder called learning-r or something like that.
+Once you've set your working directory (and you can also use the code `setwd()` with the directory inside the parentheses), run the following commands in the Console in RStudio to download the correct folders and data. 
 
-Once you've set your working directory (with maybe setwd()) then you can run these commands in your console to download the correct folders and data:
-
+```
 install.packages("usethis")
+```
 
-and then
+Once that is finished, run the following:
 
-usethis::use_course("https://github.com/r-journalism/learn-chapter-1/archive/master.zip")
+```
+usethis::use_course("https://github.com/jdbest/psy-203/archive/intro-to-r.zip")
+```
