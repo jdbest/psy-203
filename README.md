@@ -28,7 +28,7 @@ Once that is finished, run the following:
 # usethis::use_course("https://github.com/jdbest/psy-203/archive/intro-to-r.zip") # need to update with correct URL
 ```
 
-The file will download to your computer in the directory (folder) you defined above. Once it has finished downloading, copy and paste the following line to run in your RStudio console. 
+The file will download to your computer in the directory (folder) you defined above. Once it has finished downloading, copy and paste the following line to run in your RStudio console, which will open the tutorial. 
 
 ```
 rmarkdown::run("Intro-to-R.Rmd")
