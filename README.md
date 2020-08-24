@@ -12,9 +12,9 @@ For each lab, you should expect to download the lab's files locally to your comp
 
 If using your own computer, follow the [syllabus details on installing R and RStudio](https://faculty.bard.edu/~jdainerbest/psy-203/syllabus.html#installing-r-and-rstudio-on-your-own-computer), and then open RStudio. If using RStudio Cloud, make an account [on RStudio.Cloud](https://rstudio.cloud/), and then skip to the next section.
 
-You'll need to know what the "working directory" is. This is the folder on your computer where you'll be storing your files. (For example, the "Downloads" folder on most computers is located in your user folder/Downloads, e.g., mine might be in /Users/jdbest/Downloads on a Mac or in C:/Users/jdbest/Downloads on a PC.) 
+You'll need to make a decision about what will be your "working directory". The working directory is the folder on your computer where you'll be storing your files, and where R assumes you're working. (For example, you might use the "Downloads" folder on most computers is located in your user folder/Downloads, e.g., mine might be in /Users/jdbest/Downloads on a Mac or in C:/Users/jdbest/Downloads on a PC.) 
 
-Use the *PC* **Tools > Change Working Directory** menu (*Mac* **Session > Set Working Directory > Choose Directory**). Navigate to whatever folder you'll be using for this class. (You might want to use something like /yourusername/Bard/PSY 203/labs.) 
+Use the *PC* **Tools > Change Working Directory** menu (*Mac* **Session > Set Working Directory > Choose Directory**). Navigate to whatever folder you'll be using for this class. (You might want to use something like /yourusername/Bard/PSY 203/labs -- but anything is fine so long as you know where it is.) This is the sort of folder that when you go to Finder (*Mac*) or Windows Explorer (*PC*), you can find all of the files associated with this class in one place. (If you're on a shared computer, you may have limited choices. Documents folders are fine!)
 
 Optional: You can permanently set your working directory using the Tools Menu. Go to Tools: Global Options, and then click the "Browse..." under Default working director. Navigate to the same folder you just set.
 
@@ -28,7 +28,7 @@ To check that you've got the right working directory setup, run the following co
 getwd()
 ```
 
-Does it say what you expected it to?
+Does it say what you expected it to? If not, either ask for help or read through the above again.
 
 ### RStudio Cloud
 
@@ -53,10 +53,10 @@ install.packages("tidyverse")
 Once that is finished, run the following:
 
 ```
-usethis::use_course("https://github.com/jdbest/psy-203/raw/master/lab01.zip")
+usethis::use_course("https://github.com/jdbest/psy-203/raw/master/lab01.zip", destdir = getwd())
 ```
 
-The file will download to your computer in the directory (folder) you defined above; it will prompt you to confirm that you want to do this---say yes! Once it has finished downloading, copy and paste the following line to run in your RStudio console, which will open the tutorial. 
+The file will download to your computer in the directory (folder) you defined above---into your working directory. (If you didn't define it, it'll download into whatever working directory was the default.) RStudio will prompt you to confirm that you want to do this---say yes! Once it has finished downloading, copy and paste the following line to run in your RStudio console, which will open the tutorial. 
 
 ```
 rmarkdown::run("lab01/intro-to-r.Rmd")
