@@ -1,7 +1,3 @@
----
-output:
-  html_document: default
----
 # PSY 203
 
 The primary website for this course is <https://faculty.bard.edu/~jdainerbest/psy-203>
@@ -14,7 +10,7 @@ Assuming you're downloading to your own computer, you should open RStudio (follo
 
 [See the image for an example](set-working-directory.png)
 
-Once you've set your working directory (and you can also use the code `setwd()` with the directory inside the parentheses), run the following commands in the Console in RStudio to download the correct folders and data. 
+Once you've set your working directory (and you can also use the command `setwd()` with the directory inside the parentheses), run the following commands in the Console in RStudio to download the correct folders and data. (Copy and paste the code into the R Studio console..)
 
 ```
 install.packages("usethis")
@@ -23,5 +19,19 @@ install.packages("usethis")
 Once that is finished, run the following:
 
 ```
-usethis::use_course("https://github.com/jdbest/psy-203/archive/intro-to-r.zip")
+# usethis::use_course("https://github.com/jdbest/psy-203/archive/intro-to-r.zip") # need to update with correct URL
+```
+
+The file will download to your computer in the directory (folder) you defined above. Once it has finished downloading, copy and paste the following lines to run them in your RStudio console. 
+
+```
+install.packages("learnr")
+install.packages("rmarkdown")
+install.packages("tidyverse")
+```
+
+Then, when they have finished running, you'll run the following, which will open the tutorial. 
+
+```
+rmarkdown::run("Intro-to-R.Rmd")
 ```
