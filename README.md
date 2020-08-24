@@ -14,6 +14,12 @@ Once you've set your working directory (and you can also use the command `setwd(
 
 ```
 install.packages("usethis")
+install.packages("remotes")
+remotes::install_github("rstudio/learnr")
+remotes::install_github("rstudio-education/gradethis")
+devtools::install_github("kbodwin/flair")
+install.packages("rmarkdown")
+install.packages("tidyverse")
 ```
 
 Once that is finished, run the following:
@@ -22,15 +28,7 @@ Once that is finished, run the following:
 # usethis::use_course("https://github.com/jdbest/psy-203/archive/intro-to-r.zip") # need to update with correct URL
 ```
 
-The file will download to your computer in the directory (folder) you defined above. Once it has finished downloading, copy and paste the following lines to run them in your RStudio console. 
-
-```
-install.packages("learnr")
-install.packages("rmarkdown")
-install.packages("tidyverse")
-```
-
-Then, when they have finished running, you'll run the following, which will open the tutorial. 
+The file will download to your computer in the directory (folder) you defined above. Once it has finished downloading, copy and paste the following line to run in your RStudio console. 
 
 ```
 rmarkdown::run("Intro-to-R.Rmd")
