@@ -372,11 +372,18 @@ summary {
 <p>For each lab, you should expect to download the lab’s files locally to your computer, and run them there. If you’re using <a href="https://rstudio.cloud/" class="uri">https://rstudio.cloud/</a> instead of running things locally, you’ll do the same thing there.</p>
 <p>Assuming you’re downloading to your own computer, you should open RStudio (follow the syllabus details on installing R and RStudio) and use the Files pane (bottom right) to navigate to whatever folder you’ll be using for the labs in this class. (e.g., “yourname/Bard/PSY 203/Labs/”). Click the gear that says “More”, and click “Set as Working Directory”.</p>
 <p><a href="set-working-directory.png">See the image for an example</a></p>
-<p>Hopefully, you’ve created folder on your computer in your Documents folder called learning-r or something like that.</p>
-<p>Once you’ve set your working directory (with maybe setwd()) then you can run these commands in your console to download the correct folders and data:</p>
-<p>install.packages(“usethis”)</p>
-<p>and then</p>
-<p>usethis::use_course(“<a href="https://github.com/r-journalism/learn-chapter-1/archive/master.zip" class="uri">https://github.com/r-journalism/learn-chapter-1/archive/master.zip</a>”)</p>
+<p>Once you’ve set your working directory (and you can also use the command <code>setwd()</code> with the directory inside the parentheses), run the following commands in the Console in RStudio to download the correct folders and data. (Copy and paste the code into the R Studio console..)</p>
+<pre><code>install.packages(&quot;usethis&quot;)
+install.packages(&quot;remotes&quot;)
+remotes::install_github(&quot;rstudio/learnr&quot;)
+remotes::install_github(&quot;rstudio-education/gradethis&quot;)
+devtools::install_github(&quot;kbodwin/flair&quot;)
+install.packages(&quot;rmarkdown&quot;)
+install.packages(&quot;tidyverse&quot;)</code></pre>
+<p>Once that is finished, run the following:</p>
+<pre><code># usethis::use_course(&quot;https://github.com/jdbest/psy-203/archive/intro-to-r.zip&quot;) # need to update with correct URL</code></pre>
+<p>The file will download to your computer in the directory (folder) you defined above. Once it has finished downloading, copy and paste the following line to run in your RStudio console, which will open the tutorial.</p>
+<pre><code>rmarkdown::run(&quot;Intro-to-R.Rmd&quot;)</code></pre>
 </div>
 
 
