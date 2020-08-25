@@ -6,7 +6,13 @@ This github repository contains R lab code for labs in Bard College's Fall 2020 
 
 For each lab, you should expect to download the lab's files locally to your computer, and run them there. If you're using https://rstudio.cloud/ instead of running things locally, you'll do the same thing there, with a few minor changes.
 
-[Watch a video about setting this up on Brightspace](https://bardcollege.brightspace.com/).
+If you'd like, you can watch a video about setting this up---or just follow the instructions below. (Videos link to Brightspace.)
+
+* <a href="https://bardcollege.brightspace.com/d2l/le/content/6809/viewContent/11977/View" target="_blank">If you have a PC, click here</a>
+* <a href="https://bardcollege.brightspace.com/d2l/le/content/6809/viewContent/12005/View" target="_blank">If you have a Mac, click here</a>
+* <a href="https://bardcollege.brightspace.com/d2l/le/content/6809/viewContent/11978/View" target="_blank">If you're using RStudio Cloud, click here here</a>
+* If you're using a lab computer, it *should* have R and R Studio installed already; click on the appropriate link and jump forward to the section covering this document. (Or just read on.)
+* If you're using Linux, you probably can get by just reading the instructions below---just download R (and RStudio), and continue to the directions
 
 ## Set a working directory
 
@@ -68,17 +74,19 @@ You may get a few types of errors as you run this code. You can ask me or your c
 
 ### General errors
 
-1. If you run into errors like "Error in library(gradethis) : there is no package called 'gradethis'", make sure you've run each line of the above code individually. Run them all again if needed.
+1. If you run into errors like "Error in library(gradethis) : there is no package called 'gradethis'", make sure you've run each line of the above code individually. Certainly run the `install.packages()` command for whichever package it is, e.g., `install.packages("gradethis")` (don't forget the quotation marks!)
 
 2. If you run into an error like "Error in rmarkdown::run("lab01/intro-to-r.Rmd") : The directory 'lab01' does not exist", this means that the directory you downloaded to is not your working directory. 
+
+3. If you get errors from a Windows install about needing to install rtools, you can probably get by without it. See if the whole thing runs. If it does not, you can go to [the rtools website](https://cran.r-project.org/bin/windows/Rtools/) and download the appropriate file. Close RStudio and reopen it. 
 
 ### In RStudio.Cloud
 
 1. Your working directory might be different from where the files downloaded. They will likely download to "/home/rstudio-user" -- if when you run `getwd()` you don't get that, run the following code: `setwd("/home/rstudio-user")`. Then try running `rmarkdown::run("lab01/intro-to-r.Rmd")`. 
 
-2. If you get a warning on running the last line about not being able to open a popup, enable popups! 
+2. If you get a warning on running the last line about not being able to open a popup, enable popups in your browser! 
 
-3. Some folks may get an error like "Couldn't normalize path in `addResourcePath`, with arguments: `prefix` = 'mathjax-local'; `directoryPath` = '/usr/lib/rstudio-server/resources/mathjax-26'". If you get that error, run the following code:
+3. You *might* get an error that says something like: "Couldn't normalize path in \`addResourcePath\`, with arguments: \`prefix\` = 'mathjax-local'; \`directoryPath\` = '/usr/lib/rstudio-server/resources/mathjax-26'" -- if you get that error, run the following code:
 
 ```
 renv::install("rstudio/renv")

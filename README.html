@@ -370,7 +370,14 @@ summary {
 <p>The primary website for this course is <a href="https://faculty.bard.edu/~jdainerbest/psy-203" class="uri">https://faculty.bard.edu/~jdainerbest/psy-203</a></p>
 <p>This github repository contains R lab code for labs in Bard College’s Fall 2020 for Statistics for Psychology, taught by Prof. Justin Dainer-Best.</p>
 <p>For each lab, you should expect to download the lab’s files locally to your computer, and run them there. If you’re using <a href="https://rstudio.cloud/" class="uri">https://rstudio.cloud/</a> instead of running things locally, you’ll do the same thing there, with a few minor changes.</p>
-<p><a href="https://bardcollege.brightspace.com/">Watch a video about setting this up on Brightspace</a>.</p>
+<p>If you’d like, you can watch a video about setting this up—or just follow the instructions below. (Videos link to Brightspace.)</p>
+<ul>
+<li><a href="https://bardcollege.brightspace.com/d2l/le/content/6809/viewContent/11977/View" target="_blank">If you have a PC, click here</a></li>
+<li><a href="https://bardcollege.brightspace.com/d2l/le/content/6809/viewContent/12005/View" target="_blank">If you have a Mac, click here</a></li>
+<li><a href="https://bardcollege.brightspace.com/d2l/le/content/6809/viewContent/11978/View" target="_blank">If you’re using RStudio Cloud, click here here</a></li>
+<li>If you’re using a lab computer, it <em>should</em> have R and R Studio installed already; click on the appropriate link and jump forward to the section covering this document. (Or just read on.)</li>
+<li>If you’re using Linux, you probably can get by just reading the instructions below—just download R (and RStudio), and continue to the directions</li>
+</ul>
 <div id="set-a-working-directory" class="section level2">
 <h2>Set a working directory</h2>
 <p>If using your own computer, follow the <a href="https://faculty.bard.edu/~jdainerbest/psy-203/syllabus.html#installing-r-and-rstudio-on-your-own-computer">syllabus details on installing R and RStudio</a>, and then open RStudio. If using RStudio Cloud, make an account <a href="https://rstudio.cloud/">on RStudio.Cloud</a>, and then skip to the next section.</p>
@@ -409,16 +416,17 @@ install.packages(&quot;tidyverse&quot;)</code></pre>
 <div id="general-errors" class="section level3">
 <h3>General errors</h3>
 <ol style="list-style-type: decimal">
-<li><p>If you run into errors like “Error in library(gradethis) : there is no package called ‘gradethis’”, make sure you’ve run each line of the above code individually. Run them all again if needed.</p></li>
+<li><p>If you run into errors like “Error in library(gradethis) : there is no package called ‘gradethis’”, make sure you’ve run each line of the above code individually. Certainly run the <code>install.packages()</code> command for whichever package it is, e.g., <code>install.packages(&quot;gradethis&quot;)</code> (don’t forget the quotation marks!)</p></li>
 <li><p>If you run into an error like “Error in rmarkdown::run(”lab01/intro-to-r.Rmd“) : The directory ‘lab01’ does not exist”, this means that the directory you downloaded to is not your working directory.</p></li>
+<li><p>If you get errors from a Windows install about needing to install rtools, you can probably get by without it. See if the whole thing runs. If it does not, you can go to <a href="https://cran.r-project.org/bin/windows/Rtools/">the rtools website</a> and download the appropriate file. Close RStudio and reopen it.</p></li>
 </ol>
 </div>
 <div id="in-rstudio.cloud" class="section level3">
 <h3>In RStudio.Cloud</h3>
 <ol style="list-style-type: decimal">
 <li><p>Your working directory might be different from where the files downloaded. They will likely download to “/home/rstudio-user” – if when you run <code>getwd()</code> you don’t get that, run the following code: <code>setwd(&quot;/home/rstudio-user&quot;)</code>. Then try running <code>rmarkdown::run(&quot;lab01/intro-to-r.Rmd&quot;)</code>.</p></li>
-<li><p>If you get a warning on running the last line about not being able to open a popup, enable popups!</p></li>
-<li><p>Some folks may get an error like “Couldn’t normalize path in <code>addResourcePath</code>, with arguments: <code>prefix</code> = ‘mathjax-local’; <code>directoryPath</code> = ‘/usr/lib/rstudio-server/resources/mathjax-26’”. If you get that error, run the following code:</p></li>
+<li><p>If you get a warning on running the last line about not being able to open a popup, enable popups in your browser!</p></li>
+<li><p>You <em>might</em> get an error that says something like: “Couldn’t normalize path in `addResourcePath`, with arguments: `prefix` = ‘mathjax-local’; `directoryPath` = ‘/usr/lib/rstudio-server/resources/mathjax-26’” – if you get that error, run the following code:</p></li>
 </ol>
 <pre><code>renv::install(&quot;rstudio/renv&quot;)</code></pre>
 </div>
