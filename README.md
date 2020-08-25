@@ -10,7 +10,7 @@ If you'd like, you can watch a video about setting this up---or just follow the 
 
 * <a href="https://bardcollege.brightspace.com/d2l/le/content/6809/viewContent/11977/View" target="_blank">If you have a PC, click here</a>
 * <a href="https://bardcollege.brightspace.com/d2l/le/content/6809/viewContent/12005/View" target="_blank">If you have a Mac, click here</a>
-* <a href="https://bardcollege.brightspace.com/d2l/le/content/6809/viewContent/11978/View" target="_blank">If you're using RStudio Cloud, click here here</a>
+* <a href="https://bardcollege.brightspace.com/d2l/le/content/6809/viewContent/11978/View" target="_blank">If you're using RStudio Cloud, click here</a>
 * If you're using a lab computer, it *should* have R and R Studio installed already; click on the appropriate link and jump forward to the section covering this document. (Or just read on.)
 * If you're using Linux, you probably can get by just reading the instructions below---just download R (and RStudio), and continue to the directions
 
