@@ -380,24 +380,24 @@ summary {
 </ul>
 <div id="set-a-working-directory" class="section level2">
 <h2>Set a working directory</h2>
-<p>If using your own computer, follow the <a href="https://faculty.bard.edu/~jdainerbest/psy-203/syllabus.html#installing-r-and-rstudio-on-your-own-computer">syllabus details on installing R and RStudio</a>, and then open RStudio. If using RStudio Cloud, make an account <a href="https://rstudio.cloud/">on RStudio.Cloud</a>, and then skip to the next section.</p>
+<p>If you are using your own computer, follow the <a href="https://faculty.bard.edu/~jdainerbest/psy-203/syllabus.html#installing-r-and-rstudio-on-your-own-computer">syllabus details on installing R and RStudio</a>, and then open RStudio. If using RStudio Cloud, make an account <a href="https://rstudio.cloud/">on RStudio.Cloud</a>, and then skip to the next section. If using a lab computer in Albee 100, the computer should have R and RStudio installed. (Let me know if it does not.)</p>
 <p>You’ll need to make a decision about what will be your “working directory”. The working directory is the folder on your computer where you’ll be storing your files, and where R assumes you’re working. (For example, you might use the “Downloads” folder on most computers is located in your user folder/Downloads, e.g., mine might be in /Users/jdbest/Downloads on a Mac or in C:/Users/jdbest/Downloads on a PC.)</p>
-<p>Use the <em>PC</em> <strong>Tools &gt; Change Working Directory</strong> menu (<em>Mac</em> <strong>Session &gt; Set Working Directory &gt; Choose Directory</strong>). Navigate to whatever folder you’ll be using for this class. (You might want to use something like /yourusername/Bard/PSY 203/labs – but anything is fine so long as you know where it is.) This is the sort of folder that when you go to Finder (<em>Mac</em>) or Windows Explorer (<em>PC</em>), you can find all of the files associated with this class in one place. (If you’re on a shared computer, you may have limited choices. Documents folders are fine!)</p>
-<p>Optional: You can permanently set your working directory using the Tools Menu. Go to Tools: Global Options, and then click the “Browse…” under Default working director. Navigate to the same folder you just set.</p>
+<p>Use the <strong>Session &gt; Set Working Directory</strong> menu. Navigate to whatever folder you’ll be using for this class. (You might want to use something like /yourusername/Bard/PSY 203/labs – but anything is fine so long as you know where it is.) This is the sort of folder that when you go to Finder (<em>Mac</em>) or Windows Explorer (<em>PC</em>), you can find all of the files associated with this class in one place. (If you’re on a shared computer, you may have limited choices. Documents folders are fine!)</p>
+<p>Optional: You can permanently set your working directory using the Tools Menu. Go to Tools: Global Options, and then click the “Browse…” under Default working directory. Navigate to the same folder you just set.</p>
 <p>If you’re familiar with some coding, you can also set your working directory using the <code>setwd()</code> command—just be sure to enclose the path in quotation marks, e.g., <code>setwd(&quot;/yourusername/Bard/PSY 203/labs&quot;)</code>.</p>
-<p>(<a href="https://support.rstudio.com/hc/en-us/articles/200711843-Working-Directories-and-Workspaces">Read more about working directories in R</a>.)</p>
-<p>To check that you’ve got the right working directory setup, run the following code in the RStudio console (just copy and paste it and then hit enter):</p>
+<p>(<a href="https://support.rstudio.com/hc/en-us/articles/200711843-Working-Directories-and-Workspaces">Read more about working directories in R and RStudio</a>.)</p>
+<p>To check that you’ve got the right working directory set up, run the following code in the RStudio console (just copy and paste it and then hit enter):</p>
 <pre><code>getwd()</code></pre>
 <p>Does it say what you expected it to? If not, either ask for help or read through the above again.</p>
 <div id="rstudio-cloud" class="section level3">
 <h3>RStudio Cloud</h3>
 <p>Your files will download to “/home/rstudio-user” – if when you run <code>getwd()</code> you don’t get that, run the following code: <code>setwd(&quot;/home/rstudio-user&quot;)</code>.</p>
-<p>If you want to download files from the Cloud to your own computer, <a href="https://support.rstudio.com/hc/en-us/articles/200713893-Uploading-and-Downloading-Files">follow these instructions</a>.</p>
+<p>If you want to download files from the Cloud to your own computer, <a href="https://support.rstudio.com/hc/en-us/articles/200713893-Uploading-and-Downloading-Files">follow these instructions</a>. I briefly point this out in the video linked above.</p>
 </div>
 </div>
 <div id="download-packages" class="section level2">
 <h2>Download packages</h2>
-<p>Once you’re set with your working directory, run the following commands in the Console in RStudio to download the correct folders and data. (Copy and paste the code one line at a time into the R Studio console, hitting enter after each one.) Note that occasionally R will ask things like “These packages have more recent versions available. It is recommended to update all of them. Which would you like to update?” And you will need to select the number (e.g., type 1 and hit enter to download all updates).</p>
+<p>Once you’re ready with your working directory correctly set, run the following commands in the Console in RStudio to download the correct packages, and then the correct document. (Copy and paste the code <em>one line at a time</em> into the R Studio console, hitting enter after each line.) Note that occasionally R will ask things like “These packages have more recent versions available. It is recommended to update all of them. Which would you like to update?” And you will need to select a response (e.g., type 1 and hit enter to download all updates).</p>
 <pre><code>install.packages(&quot;usethis&quot;)
 install.packages(&quot;remotes&quot;)
 remotes::install_github(&quot;rstudio/learnr&quot;)
@@ -405,14 +405,14 @@ remotes::install_github(&quot;rstudio-education/gradethis&quot;)
 remotes::install_github(&quot;kbodwin/flair&quot;)
 install.packages(&quot;rmarkdown&quot;)
 install.packages(&quot;tidyverse&quot;)</code></pre>
-<p>Once that is finished, run the following:</p>
+<p>Once all packages are installed, run the following:</p>
 <pre><code>usethis::use_course(&quot;https://github.com/jdbest/psy-203/raw/master/lab01.zip&quot;, destdir = getwd())</code></pre>
-<p>The file will download to your computer in the directory (folder) you defined above—into your working directory. (If you didn’t define it, it’ll download into whatever working directory was the default.) RStudio will prompt you to confirm that you want to do this—say yes! Once it has finished downloading, copy and paste the following line to run in your RStudio console, which will open the tutorial.</p>
+<p>The lab document will download to your computer in the directory (folder) you defined above—into your working directory. (If you didn’t define it, it’ll download into whatever working directory was the default.) RStudio will prompt you to confirm that you want to do this—say yes! Once it has finished downloading, copy and paste the following line to run in your RStudio console, which will open the tutorial.</p>
 <pre><code>rmarkdown::run(&quot;lab01/intro-to-r.Rmd&quot;)</code></pre>
 </div>
 <div id="errors-and-problems" class="section level2">
 <h2>Errors and Problems</h2>
-<p>You may get a few types of errors as you run this code. You can ask me or your course assistants with questions! Additionally, you may try to troubleshoot yourself in a few ways:</p>
+<p>For many students with recently-updated computers, this will go smoothly. However, you may get a few types of errors as you run this code. You should absolutely ask me or your course assistants with questions! Additionally, you may try to troubleshoot, yourself, in a few ways:</p>
 <div id="general-errors" class="section level3">
 <h3>General errors</h3>
 <ol style="list-style-type: decimal">
