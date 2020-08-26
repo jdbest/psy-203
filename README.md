@@ -70,24 +70,4 @@ rmarkdown::run("lab01/intro-to-r.Rmd")
 
 ## Errors and Problems
 
-For many students with recently-updated computers, this will go smoothly. However, you may get a few types of errors as you run this code. You should absolutely ask me or your course assistants with questions! Additionally, you may try to troubleshoot, yourself, in a few ways:
-
-### General errors
-
-1. If you run into errors like "Error in library(gradethis) : there is no package called 'gradethis'", make sure you've run each line of the above code individually. Certainly run the `install.packages()` command for whichever package it is, e.g., `install.packages("gradethis")` (don't forget the quotation marks!)
-
-2. If you run into an error like "Error in rmarkdown::run("lab01/intro-to-r.Rmd") : The directory 'lab01' does not exist", this means that the directory you downloaded to is not your working directory. 
-
-3. If you get errors from a Windows install about needing to install rtools, you can probably get by without it. See if the whole thing runs. If it does not, you can go to [the rtools website](https://cran.r-project.org/bin/windows/Rtools/) and download the appropriate file. Close RStudio and reopen it. 
-
-### In RStudio.Cloud
-
-1. Your working directory might be different from where the files downloaded. They will likely download to "/home/rstudio-user" -- if when you run `getwd()` you don't get that, run the following code: `setwd("/home/rstudio-user")`. Then try running `rmarkdown::run("lab01/intro-to-r.Rmd")`. 
-
-2. If you get a warning on running the last line about not being able to open a popup, enable popups in your browser! 
-
-3. You *might* get an error that says something like: "Couldn't normalize path in \`addResourcePath\`, with arguments: \`prefix\` = 'mathjax-local'; \`directoryPath\` = '/usr/lib/rstudio-server/resources/mathjax-26'" -- if you get that error, run the following code:
-
-```
-renv::install("rstudio/renv")
-```
+If you run into any errors, consider looking to the [[wiki section|PSY-203-Wiki]] for trouble-shooting, or asking a course assistant or me.
