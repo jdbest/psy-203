@@ -70,4 +70,4 @@ rmarkdown::run("lab01/intro-to-r.Rmd")
 
 ## Errors and Problems
 
-If you run into any errors, consider looking to the [wiki page](../../wiki/PSY-203-Wiki) for trouble-shooting, or asking a course assistant or me. (You can also scroll up and click "Wiki".)
+If you run into any errors, consider looking to the [wiki page on troubleshooting](../../wiki/Installation-Errors-and-Problems) for solutions, or asking a course assistant or me. (You can also scroll up and click "Wiki".)
