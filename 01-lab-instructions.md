@@ -1,8 +1,8 @@
-# PSY 203 Labs
+# PSY 203 Lab 1
 
 The primary website for this course is <https://faculty.bard.edu/~jdainerbest/psy-203>
 
-[Find Lab 1 here](/blob/master/01-lab-instructions.md). These are instructions for Lab 2.
+These are all of the instructions for Lab 1. [Lab 2 is here](../../.).
 
 This github repository contains R lab code for labs in Bard College's Fall 2020 for Statistics for Psychology, taught by Prof. Justin Dainer-Best. 
 
