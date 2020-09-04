@@ -6,7 +6,11 @@ This github repository contains R lab code for labs in Bard College's Fall 2020 
 
 For each lab, you should expect to download the lab's files locally to your computer, and run them there. If you're using https://rstudio.cloud/ instead of running things locally, the same instructions should work today. 
 
-[Find Lab 1 here](./01-lab-instructions.md). These are instructions for Lab 2.
+## Previous labs
+
+* [Find Lab 1 here](./01-lab-instructions.md)
+
+Below are instructions for Lab 2.
 
 ## Make sure you're in the right working directory
 
