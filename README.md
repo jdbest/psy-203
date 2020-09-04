@@ -40,22 +40,14 @@ This exercise gives you the opportunity to do the following:
 2. Understand how to load a package.
 3. Practice writing your own code in an R Markdown document. 
 
-You can download the lab exercise in two ways (the first is recommended): 
+You can download the lab exercise like this:
 
 ### Run this code in the RStudio console to download the exercise directly into your working directory
 
 (No link yet.)
 
-<!--
 ```
-usethis::use_zip("https://github.com/jdbest/psy-203/raw/master/lab01.zip", cleanup = TRUE)
+usethis::use_zip("https://github.com/jdbest/psy-203/raw/master/lab02.zip", cleanup = TRUE)
 ```
 
-After running this, a folder should open with the exercise. Either double click on it to open it in RStudio, 
---->
-
-### Download the file and open it yourself
-
-Right click on this link and hit Download File. (The link is not here yet!) Download it into the class folder, then open it in RStudio. 
-
-*Note*: If you click on the link, it may open in your web browser as a text file. Make sure that it saves as a .Rmd file and *not* as a .Rmd.txt file! 
+After running this, a folder should open with the exercise. You can double click on the file called `intro-to-r-exercises.Rmd` to open it in RStudio. (If you'd prefer, you should be able to find it in the Files pane: open the folder "lab02" and click on the name of the exercise.)
