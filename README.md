@@ -30,4 +30,8 @@ Once you've completed the tutorial, return here for an exercise that you will tu
 
 ## Exercise
 
+<<<<<<< HEAD
 This exercise... 
+=======
+This exercise... 
+>>>>>>> cffa2a0c70f788aa90857bbd7c7403b66cb1ea1b
