@@ -16,22 +16,18 @@ Check that you're in the directory you expect by running `getwd()` (the parenthe
 
 ## Today's lab
 
+Today's lab mostly focuses on completing the first tutorial---followed by an exercise. 
 
+If you haven't already downloaded the relevant packages and the tutorial, do so in [Lab 1](./01-lab-instructions.md). 
 
-
-
-
-
-```
-usethis::use_course("https://github.com/jdbest/psy-203/raw/master/lab01.zip", destdir = getwd())
-```
-
-The lab document will download to your computer in the directory (folder) you defined above---into your working directory. (If you didn't define it, it'll download into whatever working directory was the default.) RStudio will prompt you to confirm that you want to do this---say yes! Once it has finished downloading, copy and paste the following line to run in your RStudio console, which will open the tutorial. 
+If you haven't already completed the tutorial, you can open it up by pasting the following line to run in your RStudio console, which will open the tutorial. 
 
 ```
 rmarkdown::run("lab01/intro-to-r.Rmd")
 ```
 
-## Errors and Problems
+Once you've completed the tutorial, return here for an exercise that you will turn in at the end of the lab. 
 
-If you run into any errors, consider looking to the [wiki page on troubleshooting] for solutions, or asking a course assistant or me. (You can also scroll up and click "Wiki".)
+## Exercise
+
+This exercise... 
