@@ -46,10 +46,12 @@ You can download the lab exercise like this:
 
 ### Run this code in the RStudio console to download the exercise directly into your working directory
 
-(No link yet.)
-
 ```
 usethis::use_zip("https://github.com/jdbest/psy-203/raw/master/lab02.zip", cleanup = TRUE)
 ```
 
 After running this, a folder should open with the exercise. You can double click on the file called `intro-to-r-exercises.Rmd` to open it in RStudio. (If you'd prefer, you should be able to find it in the Files pane: open the folder "lab02" and click on the name of the exercise.)
+
+## Solutions
+
+A version of the document with solutions is uploaded to the course website at the end of each week. Once you have filled out the exercise to your own satisfaction, view the "solutions" [here](https://faculty.bard.edu/~jdainerbest/psy-203/posts/2020-09-11-lab-2-answers/).
