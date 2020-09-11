@@ -6,3 +6,4 @@ This github repository contains R lab code for labs in Bard College's Fall 2020 
 
 # Labs
 
+Over the following labs, you will 

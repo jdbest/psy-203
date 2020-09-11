@@ -1,4 +1,4 @@
-# PSY 203 Labs
+# PSY 203 Lab 2
 
 The primary website for this course is <https://faculty.bard.edu/~jdainerbest/psy-203>
 
