@@ -48,4 +48,4 @@ This exercise gives you the opportunity to do the following:
 2. Practice creating histograms
 3. Use `ggplot2` to create basic plots including boxplots and scatterplots.
 
-You've downloaded the exercises along with the tutorial. Double click on the file called ``visualizing-data-exercises.Rmd` to open it, and follow the instructions. 
+You've downloaded the exercises along with the tutorial. Double click on the file called `visualizing-data-exercises.Rmd` to open it, and follow the instructions. 
