@@ -23,7 +23,7 @@ Check that you're in the directory you expect by running `getwd()` (the parenthe
 
 ## Today's tutorial
 
-Today's tutorial builds on the skills you learned in Labs 1 and 2; it uses the packages you installed earlier. (Haven't installed them? [Do so here](./00-install-packages.md))
+Today's tutorial builds on the skills you learned in Labs 1 and 2; it uses the packages you installed earlier. (Haven't installed them? [Do so here](https://github.com/jdbest/psy-203/blob/master/00-install-packages.md))
 
 To download and then run the tutorial, run the following two commands:
 
@@ -32,14 +32,16 @@ usethis::use_zip("https://github.com/jdbest/psy-203/raw/master/lab03.zip", clean
 rmarkdown::run("lab03/visualizing-data.Rmd")
 ```
 
-Once you've completed the tutorial, return here for an exercise that you will turn in at the end of the lab. Make sure that you *close the tutorial window*. 
+Once you've completed the tutorial, return for the exercise that you will turn in at the end of the lab. You may need to close the tutorial window. You may also be able to run code in the Console while the tutorial is open by *clicking on the Console tab*. See what works for you. However, you cannot knit a document while a tutorial is running.
 
-Alternatively, if you would like to refer to the tutorial while also working on this document, open the HTML version of the tutorial (after closing it in RStudio) in a web browser to refer to the code. (In RStudio.Cloud, browse to the file in the Files pane, click on it, and click "View in Web Browser".)
+If you would like to refer to the tutorial while also working on this document, open the HTML version of the tutorial (after closing it in RStudio) in a web browser to refer to the code. (In RStudio.Cloud, browse to the file in the Files pane, click on it, and click "View in Web Browser".)
 
 ## Exercise
 
 This exercise gives you the opportunity to do the following: 
 
-1. Practice 
+1. Practice filtering and subsetting
+2. Practice creating histograms
+3. Use `ggplot2` to create basic plots including boxplots and scatterplots.
 
 You've downloaded the exercises along with the tutorial. Double click on the file called ``visualizing-data-exercises.Rmd` to open it, and follow the instructions. 
