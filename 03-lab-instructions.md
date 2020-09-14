@@ -23,11 +23,7 @@ Check that you're in the directory you expect by running `getwd()` (the parenthe
 
 ## Today's tutorial
 
-<<<<<<< HEAD
-Today's tutorial builds on the skills you learned in Labs 1 and 2; it uses the packages you installed earlier. (Haven't installed them? [Do so here](https://github.com/jdbest/psy-203/blob/master/00-install-packages.md))
-=======
 Today's tutorial builds on the skills you learned in Labs 1 and 2; it uses the packages you installed earlier. (Haven't installed them? [Do so here](./00-install-packages.md))
->>>>>>> 72c54308e50d1bc5fa8be631b8a37552f94cbb8e
 
 To download and then run the tutorial, run the following two commands:
 
