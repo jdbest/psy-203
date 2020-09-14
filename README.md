@@ -10,7 +10,7 @@ Over the following labs, you will learn to use R and RStudio to create documents
 
 Labs will be uploaded weekly during the Fall of 2020.
 
-* [Instructions](00-install-packages.md) for installing packages to set up for tutorials
+* [Instructions](00-install-packaged.md) for installing packages to set up for tutorials
 * [Lab 1](01-lab-instructions.md): Learn the basics of R like variables and data frames, how to comment, and the basics of subsetting using the `$` and `dplyr`
 * [Lab 2](02-lab-instructions.md): Practice subsetting, learn to knit R Markdown documents, and learn about filtering data
 * [Lab 3](03-lab-instructions.md): Learn to visualize data, practice importing data, and begin exploring graphs
