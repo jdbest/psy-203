@@ -1,4 +1,4 @@
-# PSY 203 Lab 1
+# PSY 203 Labs: Installing packages and programs
 
 The primary website for this course is <https://faculty.bard.edu/~jdainerbest/psy-203>
 

@@ -25,7 +25,7 @@ Check that you're in the directory you expect by running `getwd()` (the parenthe
 
 Today's tutorial builds on the skills you learned in Labs 1 and 2; it uses the packages you installed earlier. (Haven't installed them? [Do so here](./00-install-packages.md))
 
-To download and then run the tutorial, run the following two commands:
+To download and then run the tutorial, run the following two commands. Be careful only to run the `usethis::use_zip()` line **once**, as it can overwrite your work. 
 
 ```
 usethis::use_zip("https://github.com/jdbest/psy-203/raw/master/lab03.zip", cleanup = TRUE)
