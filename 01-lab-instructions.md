@@ -64,7 +64,7 @@ Once all packages are installed, run the following:
 usethis::use_zip("https://github.com/jdbest/psy-203/raw/master/lab01.zip", cleanup = TRUE)
 ```
 
-The lab document will download to your computer in the directory (folder) you defined above---into your working directory. (If you didn't define it, it'll download into whatever working directory was the default.) RStudio will prompt you to confirm that you want to do this---say yes! Once it has finished downloading, copy and paste the following line to run in your RStudio console, which will open the tutorial. 
+The lab document will download to your computer in the directory (folder) you defined above---into your working directory. (If you didn't define it, it'll download into whatever working directory was the default.) It may pop up the folder where the file has downloaded---that's okay! Just come back to RStudio. Once it has finished downloading, copy and paste the following line to run in your RStudio console, which will open the tutorial. 
 
 ```
 rmarkdown::run("lab01/intro-to-r.Rmd")
