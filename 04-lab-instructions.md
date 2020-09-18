@@ -45,6 +45,6 @@ Once you've completed the tutorial, close it and double click on the `hypothesis
 
 ## Exercise
 
-This exercise explores the commands you learned. 
+This exercise explores the commands you learned and lets you continue practicing the steps of hypothesis testing. 
 
 Double click on the file called `hypothesis-testing-exercises.Rmd` to open it, and follow the instructions. 
