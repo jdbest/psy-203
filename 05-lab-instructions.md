@@ -30,4 +30,4 @@ usethis::use_zip("https://github.com/jdbest/psy-203/raw/master/lab05.zip", clean
 
 This exercise explores the commands you learned and lets you continue practicing the steps of hypothesis testing. 
 
-Double click on the file called `one-sample-t.Rmd` to open it, and follow the instructions. 
+Double click on the file called `one-sample-t.Rmd` to open it, and follow the instructions. (Alternatively, find it in your Files pane inside the lab05 folder.)
