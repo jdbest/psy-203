@@ -15,3 +15,4 @@ Labs will be uploaded weekly during the Fall of 2020.
 * [Lab 2](02-lab-instructions.md): Practice subsetting, learn to knit R Markdown documents, and learn about filtering data
 * [Lab 3](03-lab-instructions.md): Learn to visualize data, practice importing data, and begin exploring graphs
 * [Lab 4](04-lab-instructions.md): Continue practicing basic visualization while exploring the procedures of testing hypotheses in R
+* [Lab 5](05-lab-instructions.md): Build on your skills with `ggplot2` and run a *z*-test with a sample mean and a one-sample *t*-test, learning the difference between each
