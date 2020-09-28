@@ -8,18 +8,9 @@ This github repository contains R lab code for labs in Bard College's Fall 2020 
 
 For each lab, you should expect to download the lab's files locally to your computer or RStudio.Cloud installation, and run them there. 
 
-## Previous labs
-
-* [Find Lab 1 here](./01-lab-instructions.md)
-* [Find Lab 2 here](./02-lab-instructions.md)
-* [Find Lab 3 here](./03-lab-instructions.md)
-* [Find Lab 4 here](./043-lab-instructions.md)
-
-Below are instructions for Lab 5.
-
 ## Objectives
 
-The following lab *builds* on your skills with `ggplot2`, using `filter()`, and helps you practice using *z*-scores and *t*-scores to test simple sample means. 
+The following lab *builds* on your skills with `ggplot2`, using `filter()`, and helps you practice using *z*-scores and *t*-scores to test simple sample means. This lab anticipates that you have read Chapter 7 of the course textbook, listened to the initial lecture on *t*-tests, or have a background on *t*-tests; however, most of the lab reviews material you have already covered in [previous labs](../../.). 
 
 ## Make sure you're in the right working directory
 
