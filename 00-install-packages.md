@@ -27,7 +27,7 @@ install.packages("usethis")
 install.packages("remotes")
 remotes::install_github("rstudio/learnr")
 remotes::install_github("rstudio-education/gradethis")
-remotes::install_github("kbodwin/flair")
+install.packages("flair")
 install.packages("rmarkdown")
 install.packages("tidyverse")
 ```
