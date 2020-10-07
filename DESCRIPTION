@@ -1,0 +1,16 @@
+Package: psy203labs
+Title: PSY 203 learnr tutorials and Rmd exercises
+Version: 0.0.2
+Authors@R: 
+    person(given = "Justin",
+           family = "Dainer-Best",
+           role = c("aut", "cre"),
+           email = "jdainerbest@bard.edu")
+Description: This is a set of tutorials and exercises for PSY 203, an undergraduate psychology course taught in the Fall of 2020 by Professor Justin Dainer-Best at Bard College.
+Depends: R (>= 4.0)
+License: AGPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+  dplyr, ggplot2, tidyr, learnr, readr, knitr, tidyverse
+RoxygenNote: 7.1.1
