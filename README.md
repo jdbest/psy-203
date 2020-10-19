@@ -18,3 +18,4 @@ Labs will be uploaded weekly during the Fall of 2020.
 * [Lab 5](05-lab-instructions.md): Build on your skills with `ggplot2` and run a *z*-test with a sample mean and a one-sample *t*-test, learning the difference between each
 * [Lab 6](06-lab-instructions.md): Practice identifying mistakes and errors, learn to work with missing data, and learn how to add error bars in `ggplot2`
 * [Lab 7](07-lab-instructions.md): Work out the differences between **dependent** and **independent** samples *t*-tests, and how to calculate both with the `t.test()` function; learn to use `pivot_longer()` from the {tidyr} package to restructure data
+* [Lab 8](08-lab-instructions.md): Practice using the skills from the first seven labs. Test yourself: can you analyze real data? 
