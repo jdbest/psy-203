@@ -10,7 +10,7 @@ For each lab, you should expect to download the lab's files locally to your comp
 
 ## Objectives
 
-This lab asks you 
+This lab asks you to practice the skills you have learned about running *t*-tests and visualizing the results, as well as reporting them. It also expects you to practice using `filter()` and otherwise subsetting data. 
 
 ## Make sure you're in the right working directory
 
