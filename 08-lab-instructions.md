@@ -10,7 +10,7 @@ For each lab, you should expect to download the lab's files locally to your comp
 
 ## Objectives
 
-This lab asks you to practice the skills you have learned about running *t*-tests and visualizing the results, as well as reporting them. It also expects you to practice using `filter()` and otherwise subsetting data. 
+This lab asks you to practice the skills you have learned about running *t*-tests and visualizing the results, as well as reporting them. It also expects you to practice using `filter()` and otherwise subsetting data. As [described in the syllabus](https://faculty.bard.edu/jdainerbest/psy-203/syllabus.html#solo-project), the solo project is _designed to be completed alone_, and allows you to apply the code we've been learning in lab to a research question. This project helps you practice adapting code from previous work to a new question. 
 
 ## Make sure you're in the right working directory
 
