@@ -24,7 +24,7 @@ Additionally, please make sure to copy the *whole lines*, all the way to the clo
 
 ```
 usethis::use_zip("https://github.com/jdbest/psy-203/raw/master/lab09.zip", cleanup = TRUE)
-rmarkdown::run("lab07/anova.Rmd")
+rmarkdown::run("lab09/anova.Rmd")
 ```
 
 Once you've completed the tutorial, close it and double click on the `anova-exercises.Rmd` file in the folder you downloaded. (You may need to close the tutorial window.) To work on the exercises with the tutorial running, refer to [the instructions on the wiki](../../wiki/Run-a-tutorial-and-exercise-simultaneously).
