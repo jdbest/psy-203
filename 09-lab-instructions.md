@@ -10,7 +10,7 @@ For each lab, you should expect to download the lab's files locally to your comp
 
 ## Objectives
 
-This lab explores how to run analyses of variance (ANOVAs) in R, using the `lm()` function to create a model and the `anova()` function to create ANOVA tables. The tutorial will also include instruction on how to calculate the components of the ANOVA in R code. It also practices using {ggplot2} to create bar graphs to visualize data from such a test, including error bars.
+This lab explores how to run one-way analyses of variance (ANOVAs) in R, using the `lm()` function to create a model and the `anova()` function to create ANOVA tables. The tutorial will also include instruction on how to calculate the components of the ANOVA in R code. It also practices using {ggplot2} to create bar graphs to visualize data from such a test, including error bars.
 
 ## Make sure you're in the right working directory
 
