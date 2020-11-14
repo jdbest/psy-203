@@ -21,3 +21,5 @@ Labs will be uploaded weekly during the Fall of 2020.
 * [Lab 8](08-lab-instructions.md): Practice using the skills from the first seven labs. Test yourself: can you analyze real data? 
 * [Lab 9](09-lab-instructions.md): Learn to run a one-way analysis of variance (ANOVA) in R, to conduct pairwise-*t*-tests, and to plot the results
 * [Lab 10](10-lab-instructions.md): Practice plotting and learn to add regression lines to scatterplots; learn to use `cor.test()` for correlations and `summary()` and `lm()` for regressions
+* [Lab 11](11-lab-instructions.md): This is a non-coding lab that involved in-class discussion of academic writing and plagiarism; the document includes a few definitions and links
+* [Lab 12](12-lab-instructions.md): Learn to run chi-squared tests in R using the `chisq.test()` function for both goodness of fit and independence. Also, learn the very basics of factorial ANOVA in R. Practice plotting the group means/counts for both types of tests.
