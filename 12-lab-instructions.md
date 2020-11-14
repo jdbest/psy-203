@@ -10,7 +10,7 @@ For each lab, you should expect to download the lab's files locally to your comp
 
 ## Objectives
 
-This lab will walk you through how to plot and run chi-squared ($\chi^2$) tests in R, as well as how to plot and run basic factorial ANOVAs. You'll use the `lm()` and `anova()` functions for the latter, much as you did with one-way ANOVAs in [lab 9](../2020-10-26-lab-9-anova/). You'll use the `table()` function to create contingency tables and then the `chisq.test()` function to run chi-squared tests for independence and goodness of fit. You'll also practice using the **{ggplot2}** package to create a variety of plots.
+This lab will walk you through how to plot and run chi-squared ($\chi^2$) tests in R, as well as how to plot and run basic factorial ANOVAs. You'll use the `lm()` and `anova()` functions for the latter, much as you did with one-way ANOVAs in [lab 9](./2020-10-26-lab-9-anova/). You'll use the `table()` function to create contingency tables and then the `chisq.test()` function to run chi-squared tests for independence and goodness of fit. You'll also practice using the **{ggplot2}** package to create a variety of plots.
 
 ## Make sure you're in the right working directory
 
