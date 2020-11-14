@@ -16,7 +16,7 @@ This lab will walk you through how to plot and run chi-squared ($\chi^2$) tests 
 
 Set your working directory if necessary. Check that you're in the directory you expect by running `getwd()` in the Console. If you need more help, [look at the wiki page on setting a working directory](../../wiki/setting-a-working-directory). 
 
-## Today's lab
+## Today's lab 
 
 To download and then run the tutorial, run the following two commands. **Please note: only run the `usethis::usezip()` line once! Running it again will result in your overwriting the files on your computer---potentially losing your work.**
 
