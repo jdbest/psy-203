@@ -23,3 +23,5 @@ Labs will be uploaded weekly during the Fall of 2020.
 * [Lab 10](10-lab-instructions.md): Practice plotting and learn to add regression lines to scatterplots; learn to use `cor.test()` for correlations and `summary()` and `lm()` for regressions
 * [Lab 11](11-lab-instructions.md): This is a non-coding lab that involved in-class discussion of academic writing and plagiarism; the document includes a few definitions and links
 * [Lab 12](12-lab-instructions.md): Learn to run chi-squared tests in R using the `chisq.test()` function for both goodness of fit and independence. Also, learn the very basics of factorial ANOVA in R. Practice plotting the group means/counts for both types of tests.
+* [Lab 13](13-lab-instructions.md): A final project designed to incorporate the other labs and practice testing and plotting
+* [Lab 14](14-lab-instructions.md): A final lab to practice asking questions, resolving errors, and knitting to PDF
