@@ -27,4 +27,4 @@ usethis::use_zip("https://github.com/jdbest/psy-203/raw/master/lab12.zip", clean
 rmarkdown::run("lab12/chisq-and-ANOVA.Rmd")
 ```
 
-Once you've completed the tutorial, close it and double click on the `correg-exercises.Rmd` file in the folder you downloaded. (You may need to close the tutorial window.) To work on the exercises with the tutorial running, refer to [the instructions on the wiki](../../wiki/Run-a-tutorial-and-exercise-simultaneously).
+Once you've completed the tutorial, close it and double click on the `chisq-F_ANOVA-exercises.Rmd` file in the folder you downloaded. (You may need to close the tutorial window.) To work on the exercises with the tutorial running, refer to [the instructions on the wiki](../../wiki/Run-a-tutorial-and-exercise-simultaneously).
